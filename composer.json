@@ -17,6 +17,14 @@
 			"homepage": "https://www.martinhujer.cz"
 		}
 	],
+	"require": {
+		"jms/serializer-bundle": "~1.0",
+		"mhujer/jms-serializer-uuid": "~1.0",
+		"symfony/config": "~2.7|~3.0",
+		"symfony/dependency-injection": "~2.7|~3.0",
+		"symfony/http-kernel": "~2.7|~3.0",
+		"symfony/yaml": "~2.7|~3.0"
+	},
 	"require-dev": {
 		"consistence/coding-standard": "0.11",
 		"jakub-onderka/php-parallel-lint": "0.9.2",

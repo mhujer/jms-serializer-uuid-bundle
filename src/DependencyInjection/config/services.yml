@@ -1,0 +1,5 @@
+services:
+    mhujer.jms_serializer.uuid.uuid_serializer_handler:
+        class: Mhujer\JmsSerializer\Uuid\UuidSerializerHandler
+        tags:
+            - { name: jms_serializer.subscribing_handler }
