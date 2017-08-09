@@ -65,5 +65,8 @@ Thanks [Vašek Purchart](http://www.vasekpurchart.cz/) for ideas how to test Sym
 Changelog
 ----------
 
+## 2.0.0 (2017-08-09)
+- [#1](https://github.com/mhujer/jms-serializer-uuid-bundle/pull/1) Support for JMS Serializer Bundle 2.0 (thanks @VasekPurchart !)
+
 ## 1.0.0 (2015-05-XX)
 - initial release
