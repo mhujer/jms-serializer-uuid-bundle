@@ -65,6 +65,9 @@ Thanks [Vašek Purchart](http://www.vasekpurchart.cz/) for ideas how to test Sym
 Changelog
 ----------
 
+## 3.0.0 (2018-01-07)
+- [#3](https://github.com/mhujer/jms-serializer-uuid-bundle/pull/3) Added Symfony 4.0 support, dropped support for Symfony 2. Requires PHP 7.1.
+
 ## 2.0.0 (2017-08-09)
 - [#1](https://github.com/mhujer/jms-serializer-uuid-bundle/pull/1) Support for JMS Serializer Bundle 2.0 (thanks @VasekPurchart !)
 
