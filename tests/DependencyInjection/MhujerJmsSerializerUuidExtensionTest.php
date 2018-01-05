@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Mhujer\JmsSerializer\Uuid\SymfonyBundle\DependencyInjection;
 
 use Mhujer\JmsSerializer\Uuid\UuidSerializerHandler;
