@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Mhujer\JmsSerializer\Uuid\SymfonyBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
@@ -9,7 +11,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 class MhujerJmsSerializerUuidExtension extends \Symfony\Component\HttpKernel\DependencyInjection\Extension
 {
 
-	const ALIAS = 'mhujer_jms_serializer_uuid';
+	private const ALIAS = 'mhujer_jms_serializer_uuid';
 
 	/**
 	 * @param mixed[][] $configs
