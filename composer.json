@@ -1,6 +1,6 @@
 {
 	"name": "mhujer/jms-serializer-uuid-bundle",
-	"type": "library",
+	"type": "symfony-bundle",
 	"description": "Symfony integration for Uuid serializer and deserializer for JMS Serializer library",
 	"keywords": [
 		"jms",
