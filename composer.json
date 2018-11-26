@@ -17,10 +17,16 @@
 			"homepage": "https://www.martinhujer.cz"
 		}
 	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/simPod/jms-serializer-uuid"
+		}
+	],
 	"require": {
-		"php": "^7.1",
-		"jms/serializer-bundle": "~1.0 || ~2.0",
-		"mhujer/jms-serializer-uuid": "~2.0",
+		"php": "^7.2",
+		"jms/serializer-bundle": "^3.0",
+		"mhujer/jms-serializer-uuid": "dev-update-jms@dev",
 		"symfony/config": "~3.0 || ~4.0",
 		"symfony/dependency-injection": "~3.0 || ~4.0",
 		"symfony/http-kernel": "~3.0 || ~4.0",
