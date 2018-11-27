@@ -17,16 +17,13 @@ class MhujerJmsSerializerUuidExtension extends \Symfony\Component\HttpKernel\Dep
 	 * @param mixed[][] $configs
 	 * @param \Symfony\Component\DependencyInjection\ContainerBuilder $container
 	 */
-	public function load(array $configs, ContainerBuilder $container)
+	public function load(array $configs, ContainerBuilder $container): void
 	{
 		$loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/config'));
 		$loader->load('services.yml');
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getAlias()
+	public function getAlias(): string
 	{
 		return self::ALIAS;
 	}

@@ -12,14 +12,14 @@ class MhujerJmsSerializerUuidExtensionTest extends \Matthias\SymfonyDependencyIn
 	/**
 	 * @return \Symfony\Component\DependencyInjection\Extension\ExtensionInterface[]
 	 */
-	protected function getContainerExtensions()
+	protected function getContainerExtensions(): array
 	{
 		return [
 			new MhujerJmsSerializerUuidExtension(),
 		];
 	}
 
-	public function testRegisterSerializerHandler()
+	public function testRegisterSerializerHandler(): void
 	{
 		$this->load();
 
