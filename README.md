@@ -50,7 +50,7 @@ class User
 
 Requirements
 ------------
-Works with PHP 7.1 or higher.
+Works with PHP 7.2 or higher.
 
 Submitting bugs and feature requests
 ------------------------------------
@@ -64,6 +64,9 @@ Thanks [Vašek Purchart](http://www.vasekpurchart.cz/) for ideas how to test Sym
 
 Changelog
 ----------
+
+## 4.0.0 (2018-XX-XX)
+- [#6](../../pull/6) dropped support for PHP 7.1 as it is no longer supported
 
 ## 3.0.0 (2018-01-07)
 - [#3](https://github.com/mhujer/jms-serializer-uuid-bundle/pull/3) Added Symfony 4.0 support, dropped support for Symfony 2. Requires PHP 7.1.
