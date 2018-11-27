@@ -67,6 +67,7 @@ Changelog
 
 ## 4.0.0 (2018-XX-XX)
 - [#6](../../pull/6) dropped support for PHP 7.1 as it is no longer supported
+- [#7](../../pull/7) `jms/serializer` 2.0 support
 
 ## 3.0.0 (2018-01-07)
 - [#3](https://github.com/mhujer/jms-serializer-uuid-bundle/pull/3) Added Symfony 4.0 support, dropped support for Symfony 2. Requires PHP 7.1.
