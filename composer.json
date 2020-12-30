@@ -18,7 +18,7 @@
 		}
 	],
 	"require": {
-		"php": "~7.2",
+		"php": "~7.2 | ~8.0",
 		"jms/serializer-bundle": "~3.0",
 		"mhujer/jms-serializer-uuid": "~3.0",
 		"symfony/config": "~3.4 || ~4.3 || ~5.0",
