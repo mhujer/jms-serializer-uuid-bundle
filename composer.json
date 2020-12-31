@@ -13,25 +13,25 @@
 	"authors": [
 		{
 			"name": "Martin Hujer",
-			"email": "mhujer@gmail.com",
+			"email": "mail@martinhujer.cz",
 			"homepage": "https://www.martinhujer.cz"
 		}
 	],
 	"require": {
-		"php": "~7.2",
+		"php": "~7.4",
 		"jms/serializer-bundle": "~3.0",
 		"mhujer/jms-serializer-uuid": "~3.0",
-		"symfony/config": "~3.4 || ~4.3 || ~5.0",
-		"symfony/dependency-injection": "~3.4 || ~4.3 || ~5.0",
-		"symfony/http-kernel": "~3.4 || ~4.3 || ~5.0",
-		"symfony/yaml": "~3.4 || ~4.3 || ~5.0"
+		"symfony/config": "~4.4 || ~5.1",
+		"symfony/dependency-injection": "~4.4 || ~5.1",
+		"symfony/http-kernel": "~4.4 || ~5.1",
+		"symfony/yaml": "~4.4 || ~5.1"
 	},
 	"require-dev": {
-		"consistence/coding-standard": "3.9",
-		"jakub-onderka/php-parallel-lint": "1.0.0",
-		"matthiasnoback/symfony-dependency-injection-test": "4.1.0",
-		"php-coveralls/php-coveralls": "2.2.0",
-		"phpunit/phpunit": "8.4.3"
+		"consistence/coding-standard": "3.10.1",
+		"matthiasnoback/symfony-dependency-injection-test": "4.2.1",
+		"php-parallel-lint/php-parallel-lint": "1.2.0",
+		"php-coveralls/php-coveralls": "2.4.3",
+		"phpunit/phpunit": "9.5.0"
 	},
 	"autoload": {
 		"psr-4": { "Mhujer\\JmsSerializer\\Uuid\\SymfonyBundle\\": [ "src" ] },
