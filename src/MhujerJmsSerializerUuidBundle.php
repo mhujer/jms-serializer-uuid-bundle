@@ -4,7 +4,9 @@ declare(strict_types = 1);
 
 namespace Mhujer\JmsSerializer\Uuid\SymfonyBundle;
 
-class MhujerJmsSerializerUuidBundle extends \Symfony\Component\HttpKernel\Bundle\Bundle
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+class MhujerJmsSerializerUuidBundle extends Bundle
 {
 
 }

@@ -7,8 +7,9 @@ namespace Mhujer\JmsSerializer\Uuid\SymfonyBundle\DependencyInjection;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
+use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class MhujerJmsSerializerUuidExtension extends \Symfony\Component\HttpKernel\DependencyInjection\Extension
+class MhujerJmsSerializerUuidExtension extends Extension
 {
 
 	private const ALIAS = 'mhujer_jms_serializer_uuid';
