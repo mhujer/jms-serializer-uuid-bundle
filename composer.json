@@ -17,6 +17,7 @@
 			"homepage": "https://www.martinhujer.cz"
 		}
 	],
+	"abandoned": "Register the UUID handler manually, see README.",
 	"require": {
 		"php": "~7.4 | ~8.0",
 		"jms/serializer-bundle": "~3.0",

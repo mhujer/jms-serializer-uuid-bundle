@@ -5,6 +5,17 @@
 This Bundle integrates [mhujer/jms-serializer-uuid](https://github.com/mhujer/jms-serializer-uuid) into Symfony.
 
 
+## Note
+
+Instead of using this bundle, you can register the handler manually in the `config/services.yaml` file:
+
+```yaml
+services:
+    Mhujer\JmsSerializer\Uuid\UuidSerializerHandler:
+        tags:
+            - { name: jms_serializer.subscribing_handler }
+
+
 Usage
 ----
 1. Install the latest version with `composer require mhujer/jms-serializer-uuid-bundle`
